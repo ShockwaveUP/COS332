@@ -1,0 +1,69 @@
+html, .full {
+    height: 100%;
+}
+
+body {
+    font-family: "Segoe UI Historic", "Ubuntu", "Arial Black";
+    margin: 0;
+    height: 100%;
+    background-color: silver;
+    color: white;
+}
+
+.sidebar {
+    background-color: #4c4c4c;
+    text-align: center;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.sidebar img {
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-item a {
+    display: block;
+    text-decoration: none;
+    color: #00b8ff;
+    transition: 0.4s;
+    width: 100%;
+    height: 30px;
+}
+
+.nav-item a:hover {
+    background-color: #00b8ff;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.active a {
+    color: #3bfae3;
+    font-weight: bolder;
+}
+
+.main-content {
+    padding: 30px;
+}
+
+.panel {
+    background-color: #4c4c4c;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 3px #0002ff;
+    margin-bottom: 30px;
+}
+
+.panel-content {
+    padding: 30px;
+}
